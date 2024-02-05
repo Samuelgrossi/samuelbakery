@@ -1,0 +1,248 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;  
+    color: azure;  
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.header{  
+    background: rgb(101, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7px;
+    justify-content: center;  
+    opacity: 0.9;  
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    
+}
+
+.container1{
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+}
+
+.image-1 {    
+    border: 3px solid rgb(165, 162, 162);
+    background-position: center;
+    background-size: contain;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 10px;
+    opacity: 0.8;    
+}
+
+article {
+    padding: 30px;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 1.3rem;  
+    color: rgba(41, 34, 34, 0.478); 
+    word-spacing: 7px;    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container2 p {
+    margin-top: 10px;
+    color: rgb(101, 5, 5);
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.product {
+    width: 300px;
+    border: 3px solid rgb(165, 162, 162);
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px gray;
+}   
+
+.team{
+    margin-top: 40px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;    
+}
+
+.container3 li {    
+    border: 2px solid rgb(235, 240, 235);
+    width: 305px;
+    height: 350px; 
+    border-top: 2px solid white;      
+}
+
+.container3 h5 {
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0.8;
+    font-style: italic;
+    word-spacing: 5px;
+}
+
+.container3 p {
+    margin-top: 10px;
+    color: rgb(101, 5, 5);
+    font-weight: bold;
+    font-size: 19px;        
+}
+
+.staff {    
+    width: 300px;       
+    border: 3px solid rgb(165, 162, 162);        
+    border-radius: 5px; 
+    text-align: center;     
+}  
+
+.container3 .attendant {
+    border: 2px solid rgb(235, 240, 235);
+    border-top: white;
+    width: 505px;
+    height: 510px;
+    margin-top: 20px;    
+    font-size: 18px;
+}
+
+.staff-1 {
+    width: 500px;
+    background-size: contain;    
+    border: 3px solid rgb(165, 162, 162);
+    border-radius: 5px;    
+}
+
+span {
+    font-size: 25px;
+    font-style: normal;    
+}
+
+
+/*-------mission---*/
+.mission {
+    text-align: center;
+    font-size: 28px;
+    color: rgba(41, 34, 34, 0.478); 
+}
+
+.buttom {
+    margin-top: 80px;
+}
+
+.link{
+    border: 2px solid rgb(165, 162, 162);
+    color: rgba(41, 34, 34, 0.478);
+    background-color: rgba(195, 190, 190, 0.428);
+    margin-left: 70px;
+    padding: 3px 9px;    
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.link:hover{
+    background-color: rgba(169, 166, 166, 0.915);
+}
+
+.container4{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    margin: 0 auto;    
+    width: 900px;
+    gap: 40px;
+    margin-top: 50px;    
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+.container4 img{
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    
+}
+
+.text-manager {       
+    max-width: 400px;   
+    padding: 40px;
+    text-align: justify;     
+}
+
+.text-manager p {    
+    color: rgba(41, 34, 34, 0.478);  
+    word-spacing: 10px; 
+    font-weight: bold;     
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+    padding-bottom: 30px;
+    color: azure;
+    background-color: rgb(101, 5, 5);
+    line-height: 0px; 
+    opacity: 0.9;       
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+footer h5 {
+    font-size: 1.1rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+footer h6 {
+    font-size: 0.9rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-weight: bold; 
+    word-spacing: 5px; 
+    letter-spacing: 2px;  
+}
+
+
+    
+    
+    
+    
